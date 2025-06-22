@@ -1,7 +1,12 @@
-pandas
-matplotlib
-seaborn
+# pandas
+# matplotlib
+# seaborn
+
+ydata-profiling
+sweetviz
 imbalanced-learn
+# to install imbalanced-learn, avoid already existing scikit-learn 
+
 # xgboost==1.7.4
 # lightgbm==3.3.5
 # scikit-learn==1.2.2
