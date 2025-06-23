@@ -6,17 +6,17 @@ This repository builds a full machine learning pipeline to predict loan default 
 
 ## 📁 Project Structure
 
+```text
 loan-data-analysis/
 │
-├── data-wrangling.ipynb # Data cleaning, feature engineering, EDA
-├── model-training.ipynb # Model experiments, tuning, final evaluation
-├── EDA_html_reports/ # Full EDA reports (HTML)
-├── processed_data/ # Cleaned & transformed datasets
-├── models/ # Saved models
-├── flask-deployment/ # files to expose ML model as flask REST api 
-├── README.md # You are here
+├── data-wrangling.ipynb       # Data cleaning, feature engineering, EDA
+├── model-training.ipynb       # Model experiments, tuning, final evaluation
+├── EDA_html_reports/          # Full EDA reports (HTML)
+├── processed_data/            # Cleaned & transformed datasets
+├── models/                    # Saved models
+├── flask-deployment/          # Files to expose ML model as Flask REST API
+├── README.md                  # You are here
 └── ...
-
 
 
 ---
