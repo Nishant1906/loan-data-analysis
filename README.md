@@ -1,4 +1,4 @@
-# 🏦 Loan Default Prediction Pipeline
+#  Loan Default Prediction Pipeline
 
 This repository builds a full machine learning pipeline to predict loan default risk. It covers data cleaning, feature engineering, exploratory data analysis (EDA), model experimentation, hyperparameter tuning, and final model evaluation.
 
@@ -21,11 +21,11 @@ loan-data-analysis/
 
 ---
 
-## 📌 1. Data Wrangling and EDA (`data-wrangling.ipynb`)
+##  1. Data Wrangling and EDA (`data-wrangling.ipynb`)
 
 This notebook handles all data preprocessing tasks:
 
-### ✅ Steps Performed:
+###  Steps Performed:
 
 - **Data Cleaning**
   - Fixed inconsistent datatypes (e.g., dates, categoricals)
@@ -55,18 +55,18 @@ This notebook handles all data preprocessing tasks:
   - Visualized key relationships, distributions, class imbalance
   - Analyzed default patterns across features
 
-### 📊 EDA Reports:
+###  EDA Reports:
 - Full automated profiling reports generated using **YData Profiling** (formerly pandas-profiling)
 - Located under `EDA_html_reports/`
 
-> ⚠️ These `.html` files are heavy and **may not render properly on GitHub**.  
+>  These `.html` files are heavy and **may not render properly on GitHub**.  
 > Please **download and open them locally in a browser** for full interactivity.
 
 ---
 
-## 📌 2. Model Training & Evaluation (`model-training.ipynb`)
+##  2. Model Training & Evaluation (`model-training.ipynb`)
 
-### ✅ Workflow Followed:
+###  Workflow Followed:
 
 1. **Data Import**
    - Loaded cleaned dataset from previous step
@@ -105,7 +105,7 @@ This notebook handles all data preprocessing tasks:
 ---
 
 
-## 🚀 3. Sample Deployment Architecture (`sample/` Folder)
+##  3. Sample Deployment Architecture (`sample/` Folder)
 
 - Contains a **basic Flask API prototype** for serving the trained model.
 - This is **not production-ready** — it’s a **proof-of-concept for pipeline architecture**.
@@ -113,10 +113,10 @@ This notebook handles all data preprocessing tasks:
   - Demonstrate model loading, REST API serving structure
   - Lay foundation for further development (e.g., Docker, CI/CD, monitoring)
 
-> ⚠️ **Note**: This sample code will require **refactoring and error handling** for real-world deployment.
+>  **Note**: This sample code will require **refactoring and error handling** for real-world deployment.
 
 ---
-## ✅ How to Run
+##  How to Run
 
 1. Clone the repo:
    ```bash
