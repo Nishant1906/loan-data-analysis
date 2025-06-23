@@ -192,3 +192,13 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+
+
+conf_*
+mlruns/*
+Loan_Default_Prediction.ipynb
+backups/*
+raw-data/*
+processed-data/*
+flask-deployment\models\best_model.pkl
