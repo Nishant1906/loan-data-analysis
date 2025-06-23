@@ -17,7 +17,7 @@ loan-data-analysis/
 ├── flask-deployment/          # Files to expose ML model as Flask REST API
 ├── README.md                  # You are here
 └── ...
-
+```
 
 ---
 
@@ -122,3 +122,4 @@ This notebook handles all data preprocessing tasks:
    ```bash
    git clone https://github.com/your-repo-name.git
    cd loan-data-analysis
+[Loan Default Prediction_ A Technical Case Study.pdf](https://github.com/user-attachments/files/20871206/Loan.Default.Prediction_.A.Technical.Case.Study.pdf)
