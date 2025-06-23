@@ -198,3 +198,6 @@ cython_debug/
 conf_*
 mlruns/*
 Loan_Default_Prediction.ipynb
+backups/*
+raw-data/*
+processed-data/*
